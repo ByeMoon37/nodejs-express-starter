@@ -69,7 +69,7 @@ Designed to help developers bootstrap backend projects faster with a clean archi
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/nodejs-express-starter.git
+git clone https://github.com/ByeMoon37/nodejs-express-starter.git
 ```
 
 Install dependencies:
