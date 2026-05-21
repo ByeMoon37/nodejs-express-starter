@@ -1,0 +1,35 @@
+{
+    "compilerOptions": {
+        "target": "es2022",
+        "module": "commonjs",
+        "rootDir": "./src",
+        "outDir": "./dist",
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        /**
+        *
+        * "paths": {
+        *     "@exception/*": ["./src/exception"],
+        *     "@interfaces/*": ["./src/interfaces"],
+        *     "@middlewares/*": ["./src/middlewares"],
+        *     "@models/*": ["./src/models"]
+        * },
+        *
+        **/
+        "allowImportingTsExtensions": true,
+        "rewriteRelativeImportExtensions": true
+    },
+    "include": [
+        "src/**/*.ts",
+        "src/**/*.mts",
+    ],
+    "exclude": [
+        "node_modules"
+    ],
+    "ts-node": {
+        "transpileOnly": true,
+        "require": ["tsconfig-paths/register"]
+    }
+}
