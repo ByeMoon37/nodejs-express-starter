@@ -2,13 +2,13 @@
   "name": "nodejs-express-starter",
   "version": "0.0.1",
   "description": "Modern Express.js starter template with TypeScript, logging and scalable architecture.",
-  "main": "dist/index.js",
+  "main": "dist/app.js",
   "type": "module",
 
   "scripts": {
-    "dev": "tsx watch --env-file=.env src/index.ts",
+    "dev": "tsx watch --env-file=.env src/app.ts",
     "build": "tsc -p tsconfig.json",
-    "start": "node dist/index.js",
+    "start": "node dist/app.js",
 
     "lint": "eslint src --ext .ts",
     "lint:fix": "eslint src --ext .ts --fix",
